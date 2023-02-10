@@ -1,0 +1,73 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    background-color:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    width:60%;
+    height:470px;
+    margin-top:5%;
+    background-color:#1D3557;
+    color:#f5f5f5;
+    display:flex;
+    flex-direction:column;
+}
+.container h1{
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:2%;
+}
+.instructions{
+    width:60%;
+    height:180px;
+    background-color:#457B9D;
+    align-self:center;
+    margin-top:3%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.instructions h3{
+    text-align:center;
+    font-size:1.5em;
+    font-weight:600;
+}
+.instructions p{
+    text-align:justify;
+    width:80%;
+    margin-top:-3%;
+}
+.form{
+    align-self:center;
+    margin-top:3%;
+}
+.form input, .form select{
+    width:495px;
+    height:30px;
+    border:none;
+    font-family:'Poppins',sans-serif;
+}
+.form input:focus, .form select:focus{
+    outline:none;
+}
+.btn{
+    margin-top:3%;
+    width:30%;
+    height:30px;
+    border:none;
+    background-color:#457B9D;
+    color:#f5f5f5;
+    text-transform:uppercase;
+    cursor:pointer;
+}
